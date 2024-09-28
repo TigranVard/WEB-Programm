@@ -1,27 +1,27 @@
 .circle-light_green{
     background-color: rgb(95, 242, 154);
-    width: 500px;
-    min-height: 500px;
-    border-radius: 50%;   
-    position: fixed;
-    top:-200px;
-    left:-50px;
+    width: 2000px;
+    min-height: 2000px;
+    /* border-radius:50% ;    */
+    position: absolute;
+    top:0px;
+    left:0px;
     z-index: -1;
 }
 
 .circle-blue {
-    background-color: rgb(27, 122, 238);
-    width: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 950px;
     min-height: 500px;
-    border-radius: 50%;
-    position: fixed;
-    top: -200px;
-    left: 1060px;
-    z-index: -1;
+    /* border-radius: 50%; */
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    z-index: +1;
 
 }
 
-.circle-orange {
+/* .circle-orange {
     background-color: rgb(251, 218, 31);
     width: 600px;
     min-height: 600px;
@@ -31,11 +31,11 @@
     left: 440px;
     z-index: -1;
     padding: 5px;
-}
+} */
 
-body{
+/* body{
     min-height: 2000px;
-}
+} */
 
 
 .relative{
@@ -43,4 +43,31 @@ body{
     margin: auto;
     position: relative;
     top: 200px;
+    z-index: +2 ;
 }
+
+
+.kvad{
+    position:relative;
+    top: -450px;
+    left: -200px;
+
+
+}
+
+.kvad2 {
+    position: relative;
+    top: -621px;
+    left: 110px;
+
+
+}
+
+.kvad3  {
+    position: relative;
+    top: -793px;
+    left: 420px;
+
+
+}
+
