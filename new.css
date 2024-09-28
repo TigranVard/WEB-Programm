@@ -1,0 +1,46 @@
+.circle-light_green{
+    background-color: rgb(95, 242, 154);
+    width: 500px;
+    min-height: 500px;
+    border-radius: 50%;   
+    position: fixed;
+    top:-200px;
+    left:-50px;
+    z-index: -1;
+}
+
+.circle-blue {
+    background-color: rgb(27, 122, 238);
+    width: 500px;
+    min-height: 500px;
+    border-radius: 50%;
+    position: fixed;
+    top: -200px;
+    left: 1060px;
+    z-index: -1;
+
+}
+
+.circle-orange {
+    background-color: rgb(251, 218, 31);
+    width: 600px;
+    min-height: 600px;
+    border-radius: 50%;
+    position: fixed;
+    top: 100px;
+    left: 440px;
+    z-index: -1;
+    padding: 5px;
+}
+
+body{
+    min-height: 2000px;
+}
+
+
+.relative{
+    width: 500px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
