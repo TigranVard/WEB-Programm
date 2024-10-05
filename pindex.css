@@ -1,0 +1,25 @@
+img {
+    position: absolute;
+    min-height: 400px;
+}
+
+.parent  {
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.child  {
+    width:200px;
+    height: 200px;
+    background-color: rgb(51, 160, 228);
+    border-width: 2px;
+    border-style: solid;
+    border-color:black ;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
